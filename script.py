@@ -172,7 +172,6 @@ blue = (20, 100, 250)
 light_blue = (150, 150, 200)
 green = (30, 255, 30)
 yellow = (250, 200, 10)
-
 gray = (100, 100, 100)
 red = (200, 80, 80)
 
@@ -195,13 +194,13 @@ if preset==0:
     neptune = Body((500-distances[4], 450), (0, -orbit_vel[4]), 0.01, blue, radius=18)
     comet = Body((800, 800), (-1, 0), 0.001, light_blue, radius=6)
 
-if preset==1:
+elif preset==1:
     rigel_kentaurus = Body((400, 450), (0, -1.2), 100, white, radius=8)
     toliman = Body((600, 450), (0, +1.2), 100, yellow, radius=8)
     proxima = Body((250, 450), (0, -2.0), 0.01, red, radius=5)
     proxima2 = Body((750, 450), (+1, +2.1), 0.01, red, radius=5)
 
-if preset==2:
+elif preset==2:
     black_hole = Body((500, 450), (0, 0), 100, black, radius=25)
     for i in range(100):
         photon = Body((i*WIDTH/95, 0), (0, 1), 0.001, white, radius=1)
