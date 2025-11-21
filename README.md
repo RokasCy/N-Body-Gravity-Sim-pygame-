@@ -1,7 +1,7 @@
 # N-Body-Gravity-Sim-pygame-
-A simple program that can simulate gravitational interactions between objects with pygame.
+A simple program that can simulate gravitational interactions between celestial objects with pygame.
 
-The simulation displays:
+The simulation additionally displays:
 - the center of mass 
 - acceleration vectors
 - orbit trails
